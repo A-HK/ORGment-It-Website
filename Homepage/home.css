@@ -287,18 +287,25 @@
         display: flex;
         flex-wrap: wrap;
         flex-direction: row;
-        width: 200px;
+
         align-content: space-between;
-        margin-left: 140px;
+
+        align-items: center;
+        justify-content: center;
       }
       .social-links-row i{
-        margin-right: 20px;
+        margin-right: 10px;
+        margin-left: 10px;
         display: flex;
         justify-content: center;
         align-items: center;
       }
       .social-links{
         display: none;
+      }
+
+      .download-btn{
+        margin-left: 25%;
       }
 
     }
